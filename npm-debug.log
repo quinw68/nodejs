@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'init' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 silly package data undefined
+6 info init written successfully
+7 verbose stack Error: Invalid name: "Terrain Editor"
+7 verbose stack     at ensureValidName (C:\Program Files\nodejs\node_modules\npm\node_modules\normalize-package-data\lib\fixer.js:322:15)
+7 verbose stack     at Object.module.exports.fixNameField (C:\Program Files\nodejs\node_modules\npm\node_modules\normalize-package-data\lib\fixer.js:211:5)
+7 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\normalize-package-data\lib\normalize.js:30:38
+7 verbose stack     at Array.forEach (native)
+7 verbose stack     at normalize (C:\Program Files\nodejs\node_modules\npm\node_modules\normalize-package-data\lib\normalize.js:29:15)
+7 verbose stack     at final (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:368:33)
+7 verbose stack     at then (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:127:33)
+7 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:317:48
+7 verbose stack     at evalmachine.<anonymous>:263:20
+7 verbose stack     at OpenReq.Req.done (C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:141:5)
+8 verbose cwd E:\dev\nodejs
+9 error Windows_NT 6.1.7601
+10 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "init"
+11 error node v0.12.2
+12 error npm  v2.7.4
+13 error Invalid name: "Terrain Editor"
+14 error If you need help, you may report this error at:
+14 error     <https://github.com/npm/npm/issues>
+15 verbose exit [ 1, true ]

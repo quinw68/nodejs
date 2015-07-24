@@ -1,0 +1,15 @@
+extends ../includes/layout
+
+block main-content
+    .navbar.navbar-fixed-top
+        .container-fluid
+            .navbar-header
+                a.navbar-brand(href="/") TerrainEditor
+            .navbar-collapse.collapse
+                ul.nav.navbar-nav
+                    li
+                        a(href="/") Home
+                div(ng-include="'/partials/account/navbar-login'")
+
+    section.content
+        div(ng-view)
